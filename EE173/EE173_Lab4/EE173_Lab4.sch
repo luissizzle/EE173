@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:EE173_Lab4-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -502,6 +503,17 @@ F 1 "C" H 9065 3705 50  0000 L CNN
 F 2 "" H 8988 3600 50  0001 C CNN
 F 3 "~" H 8950 3750 50  0001 C CNN
 	1    8950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5BF4DBCE
+P 9800 4250
+F 0 "L?" H 9853 4296 50  0000 L CNN
+F 1 "L" H 9853 4205 50  0000 L CNN
+F 2 "" H 9800 4250 50  0001 C CNN
+F 3 "~" H 9800 4250 50  0001 C CNN
+	1    9800 4250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
