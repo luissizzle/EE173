@@ -36,17 +36,6 @@ F 3 "" H 1150 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L My_Schematics:Microstrip U?
-U 1 1 5BF34B56
-P 5650 4450
-F 0 "U?" V 5679 4388 50  0000 L CNN
-F 1 "Microstrip" V 5770 4388 50  0000 L CNN
-F 2 "" H 5650 4300 50  0001 C CNN
-F 3 "" H 5650 4300 50  0001 C CNN
-	1    5650 4450
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 5BF34F04
 P 1550 3550
@@ -462,4 +451,15 @@ Wire Wire Line
 	1750 1350 1800 1350
 Wire Wire Line
 	1800 1350 1800 1450
+$Comp
+L My_Schematics:Microstrip U?
+U 1 1 5BF72232
+P 5650 4450
+F 0 "U?" V 5679 4388 50  0000 L CNN
+F 1 "Microstrip" V 5770 4388 50  0000 L CNN
+F 2 "" H 5650 4300 50  0001 C CNN
+F 3 "" H 5650 4300 50  0001 C CNN
+	1    5650 4450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
