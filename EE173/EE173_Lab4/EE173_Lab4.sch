@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:EE173_Lab4-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -486,12 +485,23 @@ Signal Generator
 $Comp
 L 4xxx:4001 U?
 U 1 1 5BF4D94A
-P 8450 1900
-F 0 "U?" H 8450 2225 50  0000 C CNN
-F 1 "4001" H 8450 2134 50  0000 C CNN
-F 2 "" H 8450 1900 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 8450 1900 50  0001 C CNN
-	1    8450 1900
+P 9600 3400
+F 0 "U?" H 9600 3725 50  0000 C CNN
+F 1 "4001" H 9600 3634 50  0000 C CNN
+F 2 "" H 9600 3400 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 9600 3400 50  0001 C CNN
+	1    9600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BF78CB1
+P 8950 3750
+F 0 "C?" H 9065 3796 50  0000 L CNN
+F 1 "C" H 9065 3705 50  0000 L CNN
+F 2 "" H 8988 3600 50  0001 C CNN
+F 3 "~" H 8950 3750 50  0001 C CNN
+	1    8950 3750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

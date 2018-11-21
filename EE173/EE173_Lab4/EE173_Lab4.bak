@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:EE173_Lab4-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -104,7 +105,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 4100 5500 4150
 $Comp
-L My_Connector:Conn_Coaxial J?
+L EE173_Lab4-rescue:Conn_Coaxial-My_Connector J?
 U 1 1 5BF5C810
 P 6100 4150
 F 0 "J?" H 6199 4126 50  0000 L CNN
@@ -133,7 +134,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 4150 5900 4150
 $Comp
-L My_Connector:Conn_Coaxial J?
+L EE173_Lab4-rescue:Conn_Coaxial-My_Connector J?
 U 1 1 5BF5CE7C
 P 6100 4850
 F 0 "J?" H 6199 4826 50  0000 L CNN
@@ -452,7 +453,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 1350 1800 1450
 $Comp
-L My_Schematics:Microstrip U?
+L EE173_Lab4-rescue:Microstrip-My_Schematics U?
 U 1 1 5BF72232
 P 5650 4450
 F 0 "U?" V 5679 4388 50  0000 L CNN
@@ -482,4 +483,15 @@ Wire Notes Line
 	600  3100 2100 3100
 Text Notes 700  3200 0    50   ~ 0
 Signal Generator
+$Comp
+L 4xxx:4001 U?
+U 1 1 5BF4D94A
+P 8450 1900
+F 0 "U?" H 8450 2225 50  0000 C CNN
+F 1 "4001" H 8450 2134 50  0000 C CNN
+F 2 "" H 8450 1900 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 8450 1900 50  0001 C CNN
+	1    8450 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
