@@ -456,10 +456,30 @@ L My_Schematics:Microstrip U?
 U 1 1 5BF72232
 P 5650 4450
 F 0 "U?" V 5679 4388 50  0000 L CNN
-F 1 "Microstrip" V 5770 4388 50  0000 L CNN
+F 1 "50ohm" V 5770 4388 50  0000 L CNN
 F 2 "" H 5650 4300 50  0001 C CNN
 F 3 "" H 5650 4300 50  0001 C CNN
 	1    5650 4450
 	0    1    1    0   
 $EndComp
+Wire Notes Line
+	800  800  800  1900
+Wire Notes Line
+	800  1900 3450 1900
+Wire Notes Line
+	3450 1900 3450 800 
+Wire Notes Line
+	3450 800  800  800 
+Text Notes 950  950  0    50   ~ 0
+Power Supply
+Wire Notes Line
+	2100 3100 2100 4100
+Wire Notes Line
+	2100 4100 600  4100
+Wire Notes Line
+	600  4100 600  3100
+Wire Notes Line
+	600  3100 2100 3100
+Text Notes 700  3200 0    50   ~ 0
+Signal Generator
 $EndSCHEMATC
