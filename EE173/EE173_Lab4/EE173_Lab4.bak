@@ -484,36 +484,107 @@ Wire Notes Line
 Text Notes 700  3200 0    50   ~ 0
 Signal Generator
 $Comp
-L 4xxx:4001 U?
-U 1 1 5BF4D94A
-P 9600 3400
-F 0 "U?" H 9600 3725 50  0000 C CNN
-F 1 "4001" H 9600 3634 50  0000 C CNN
-F 2 "" H 9600 3400 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 9600 3400 50  0001 C CNN
-	1    9600 3400
+L 74xx:74HC02 U?
+U 1 1 5BFA238A
+P 2500 4800
+F 0 "U?" H 2500 5125 50  0000 C CNN
+F 1 "74HC02" H 2500 5034 50  0000 C CNN
+F 2 "" H 2500 4800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 2500 4800 50  0001 C CNN
+	1    2500 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 5BF78CB1
-P 8950 3750
-F 0 "C?" H 9065 3796 50  0000 L CNN
-F 1 "C" H 9065 3705 50  0000 L CNN
-F 2 "" H 8988 3600 50  0001 C CNN
-F 3 "~" H 8950 3750 50  0001 C CNN
-	1    8950 3750
+L 74xx:74HC02 U?
+U 2 1 5BFA240B
+P 3150 5550
+F 0 "U?" H 3150 5875 50  0000 C CNN
+F 1 "74HC02" H 3150 5784 50  0000 C CNN
+F 2 "" H 3150 5550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 3150 5550 50  0001 C CNN
+	2    3150 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
-U 1 1 5BF4DBCE
-P 9800 4250
-F 0 "L?" H 9853 4296 50  0000 L CNN
-F 1 "L" H 9853 4205 50  0000 L CNN
-F 2 "" H 9800 4250 50  0001 C CNN
-F 3 "~" H 9800 4250 50  0001 C CNN
-	1    9800 4250
+L 74xx:74HC02 U?
+U 3 1 5BFA2492
+P 3850 4900
+F 0 "U?" H 3850 5225 50  0000 C CNN
+F 1 "74HC02" H 3850 5134 50  0000 C CNN
+F 2 "" H 3850 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 3850 4900 50  0001 C CNN
+	3    3850 4900
 	1    0    0    -1  
 $EndComp
+$Comp
+L 74xx:74HC02 U?
+U 4 1 5BFA24FF
+P 4750 4900
+F 0 "U?" H 4750 5225 50  0000 C CNN
+F 1 "74HC02" H 4750 5134 50  0000 C CNN
+F 2 "" H 4750 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 4750 4900 50  0001 C CNN
+	4    4750 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4800 2850 4800
+Wire Wire Line
+	2850 4800 2850 5450
+Wire Wire Line
+	3450 5550 3450 5000
+$Comp
+L power:GND #PWR?
+U 1 1 5BFA5B7F
+P 2850 5900
+F 0 "#PWR?" H 2850 5650 50  0001 C CNN
+F 1 "GND" H 2855 5727 50  0000 C CNN
+F 2 "" H 2850 5900 50  0001 C CNN
+F 3 "" H 2850 5900 50  0001 C CNN
+	1    2850 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5650 2850 5900
+Wire Wire Line
+	2200 4700 2200 4900
+Wire Wire Line
+	4450 4800 4450 4900
+Wire Wire Line
+	4450 4900 4150 4900
+Connection ~ 4450 4900
+Wire Wire Line
+	4450 4900 4450 5000
+Wire Wire Line
+	1150 3650 1150 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5BFAAF3C
+P 4000 2050
+F 0 "#PWR?" H 4000 1800 50  0001 C CNN
+F 1 "GND" H 4005 1877 50  0000 C CNN
+F 2 "" H 4000 2050 50  0001 C CNN
+F 3 "" H 4000 2050 50  0001 C CNN
+	1    4000 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1950 4000 1950
+Wire Wire Line
+	4000 1950 4000 2050
+Wire Notes Line
+	2000 4400 5100 4400
+Wire Notes Line
+	5100 4400 5100 6200
+Wire Notes Line
+	5100 6200 2000 6200
+Wire Notes Line
+	2000 6200 2000 4400
+Text Notes 3950 6000 0    50   ~ 0
+Alternate pulse generator
+Wire Wire Line
+	3450 5000 3550 5000
+Wire Wire Line
+	3550 4800 2850 4800
+Connection ~ 2850 4800
 $EndSCHEMATC
