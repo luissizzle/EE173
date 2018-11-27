@@ -1,4 +1,4 @@
-(module HC00 (layer F.Cu) (tedit 5BFCED3B)
+(module HC00 (layer F.Cu) (tedit 5BFCF3B9)
   (fp_text reference U (at 1.8034 4.8641) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -9,6 +9,7 @@
   (fp_line (start -2.03 -1.03) (end 6.99 -1.03) (layer F.SilkS) (width 0.12))
   (fp_line (start 6.99 -1) (end 6.99 -5.87) (layer F.SilkS) (width 0.12))
   (fp_line (start 6.96 -5.9) (end -2 -5.9) (layer F.SilkS) (width 0.12))
+  (fp_circle (center -1.29 -3.64) (end -0.66 -3.52) (layer F.SilkS) (width 0.12))
   (pad 1 smd rect (at -1.27 0.2032) (size 0.510032 1.592072) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 0.2032) (size 0.510032 1.592072) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.27 0.2032) (size 0.510032 1.592072) (layers F.Cu F.Paste F.Mask))
