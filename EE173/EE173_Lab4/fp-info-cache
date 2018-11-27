@@ -1,4 +1,4 @@
-15102437638154544
+15103980934710544
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -48724,8 +48724,8 @@ MicroStrip
 
 
 0
-1
-1
+2
+2
 My_Footprints
 Two_Pos_Jumper
 
@@ -48733,6 +48733,13 @@ Two_Pos_Jumper
 0
 2
 2
+My_Footprints
+Vertical_BNC_Connector
+
+
+0
+5
+5
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads

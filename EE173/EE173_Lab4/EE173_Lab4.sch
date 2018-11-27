@@ -518,17 +518,6 @@ F 3 "~" H 7900 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
-U 1 1 5BFA4BB6
-P 8500 3750
-F 0 "R4" V 8293 3750 50  0000 C CNN
-F 1 "R" V 8384 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8430 3750 50  0001 C CNN
-F 3 "~" H 8500 3750 50  0001 C CNN
-	1    8500 3750
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R5
 U 1 1 5BFA4CB4
 P 8500 4100
@@ -556,18 +545,11 @@ Wire Wire Line
 	7600 4450 7600 4100
 Connection ~ 7600 4450
 Wire Wire Line
-	7600 4100 7600 3750
-Connection ~ 7600 4100
-Wire Wire Line
-	8200 3750 8350 3750
-Wire Wire Line
 	8200 4100 8350 4100
 Wire Wire Line
 	8200 4450 8350 4450
 Wire Wire Line
 	8850 4700 8850 4650
-Wire Wire Line
-	8850 3750 8650 3750
 Wire Wire Line
 	8650 4100 8850 4100
 Connection ~ 8850 4100
@@ -692,4 +674,21 @@ Wire Notes Line
 	1750 5100 3400 5100
 Wire Notes Line
 	2750 3200 2750 4850
+Wire Wire Line
+	8200 3750 8850 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5BFD4519
+P 7450 3850
+F 0 "#PWR?" H 7450 3600 50  0001 C CNN
+F 1 "GND" H 7455 3677 50  0000 C CNN
+F 2 "" H 7450 3850 50  0001 C CNN
+F 3 "" H 7450 3850 50  0001 C CNN
+	1    7450 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3750 7450 3750
+Wire Wire Line
+	7450 3750 7450 3850
 $EndSCHEMATC
