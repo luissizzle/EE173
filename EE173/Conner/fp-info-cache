@@ -1,4 +1,4 @@
-15103981020956544
+15105524412445544
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -48703,7 +48703,7 @@ BNC_Connector
 
 
 0
-2
+5
 2
 My_Footprints
 HC00
@@ -48712,6 +48712,13 @@ HC00
 0
 14
 14
+My_Footprints
+header_2_pins
+
+
+0
+2
+2
 My_Footprints
 L7806ABV
 

@@ -133,7 +133,7 @@ U 1 1 5BF5CE7C
 P 9450 5750
 F 0 "J4" H 9549 5726 50  0000 L CNN
 F 1 "OSC" H 9549 5635 50  0000 L CNN
-F 2 "Connector_Coaxial:BNC_PanelMountable_Vertical" H 9450 5750 50  0001 C CNN
+F 2 "My_Footprints:BNC_Connector" H 9450 5750 50  0001 C CNN
 F 3 " ~" H 9450 5750 50  0001 C CNN
 	1    9450 5750
 	1    0    0    -1  
