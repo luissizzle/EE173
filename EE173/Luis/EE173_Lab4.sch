@@ -20,7 +20,7 @@ U 1 1 5BF34C06
 P 2150 3650
 F 0 "J1" H 2256 3828 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 2256 3737 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2150 3650 50  0001 C CNN
+F 2 "My_Footprints:header_2_pins" H 2150 3650 50  0001 C CNN
 F 3 "~" H 2150 3650 50  0001 C CNN
 	1    2150 3650
 	1    0    0    -1  
@@ -133,7 +133,7 @@ U 1 1 5BF5CE7C
 P 9450 5750
 F 0 "J4" H 9549 5726 50  0000 L CNN
 F 1 "OSC" H 9549 5635 50  0000 L CNN
-F 2 "Connector_Coaxial:BNC_PanelMountable_Vertical" H 9450 5750 50  0001 C CNN
+F 2 "My_Footprints:BNC_Connector" H 9450 5750 50  0001 C CNN
 F 3 " ~" H 9450 5750 50  0001 C CNN
 	1    9450 5750
 	1    0    0    -1  
@@ -256,7 +256,7 @@ U 1 1 5BF61605
 P 3650 2000
 F 0 "J2" H 3756 2178 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 3350 2100 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3650 2000 50  0001 C CNN
+F 2 "My_Footprints:header_2_pins" H 3650 2000 50  0001 C CNN
 F 3 "~" H 3650 2000 50  0001 C CNN
 	1    3650 2000
 	1    0    0    -1  
@@ -397,7 +397,7 @@ U 1 1 5BF68440
 P 6400 2000
 F 0 "D2" H 6392 1745 50  0000 C CNN
 F 1 "LED" H 6392 1836 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 6400 2000 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 6400 2000 50  0001 C CNN
 F 3 "~" H 6400 2000 50  0001 C CNN
 	1    6400 2000
 	-1   0    0    1   
@@ -477,7 +477,7 @@ U 1 1 5BFA2C68
 P 7900 3750
 F 0 "JP3" H 7900 4014 50  0000 C CNN
 F 1 "Jumper" H 7900 3923 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 7900 3750 50  0001 C CNN
+F 2 "My_Footprints:header_2_pins" H 7900 3750 50  0001 C CNN
 F 3 "~" H 7900 3750 50  0001 C CNN
 	1    7900 3750
 	1    0    0    -1  
@@ -488,7 +488,7 @@ U 1 1 5BFA2CF7
 P 7900 4100
 F 0 "JP4" H 7900 4364 50  0000 C CNN
 F 1 "Jumper" H 7900 4273 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 7900 4100 50  0001 C CNN
+F 2 "My_Footprints:header_2_pins" H 7900 4100 50  0001 C CNN
 F 3 "~" H 7900 4100 50  0001 C CNN
 	1    7900 4100
 	1    0    0    -1  
@@ -499,7 +499,7 @@ U 1 1 5BFA3C4F
 P 7900 4450
 F 0 "JP5" H 7900 4714 50  0000 C CNN
 F 1 "Jumper" H 7900 4623 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 7900 4450 50  0001 C CNN
+F 2 "My_Footprints:header_2_pins" H 7900 4450 50  0001 C CNN
 F 3 "~" H 7900 4450 50  0001 C CNN
 	1    7900 4450
 	1    0    0    -1  
@@ -553,7 +553,7 @@ U 1 1 5BFAAAF3
 P 7900 4650
 F 0 "JP6" H 7900 4450 50  0000 C CNN
 F 1 "Jumper" H 7900 4550 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 7900 4650 50  0001 C CNN
+F 2 "My_Footprints:header_2_pins" H 7900 4650 50  0001 C CNN
 F 3 "~" H 7900 4650 50  0001 C CNN
 	1    7900 4650
 	1    0    0    -1  
@@ -569,23 +569,23 @@ $Comp
 L Device:Jumper JP1
 U 1 1 5BFC95F1
 P 3150 4200
-F 0 "JP1" H 3150 4350 50  0000 C CNN
-F 1 "Jumper" H 3150 4450 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 3150 4200 50  0001 C CNN
+F 0 "JP1" H 3150 4550 50  0000 C CNN
+F 1 "Jumper" H 3150 4600 50  0000 C CNN
+F 2 "My_Footprints:header_2_pins" H 3150 4200 50  0001 C CNN
 F 3 "~" H 3150 4200 50  0001 C CNN
 	1    3150 4200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:Jumper JP2
 U 1 1 5BFCA8E8
 P 3150 4400
-F 0 "JP2" H 3150 4200 50  0000 C CNN
-F 1 "Jumper" H 3150 4300 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 3150 4400 50  0001 C CNN
+F 0 "JP2" H 3150 4000 50  0000 C CNN
+F 1 "Jumper" H 3150 4050 50  0000 C CNN
+F 2 "My_Footprints:header_2_pins" H 3150 4400 50  0001 C CNN
 F 3 "~" H 3150 4400 50  0001 C CNN
 	1    3150 4400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3500 4300 3500 4200
@@ -680,4 +680,14 @@ Wire Wire Line
 	7450 3750 7450 3850
 Wire Wire Line
 	8850 5050 8850 5750
+Wire Notes Line
+	8750 5150 8950 5150
+Wire Notes Line
+	8950 5150 8950 5650
+Wire Notes Line
+	8950 5650 8750 5650
+Wire Notes Line
+	8750 5650 8750 5150
+Text Notes 8750 5600 1    50   ~ 0
+Microstrip
 $EndSCHEMATC

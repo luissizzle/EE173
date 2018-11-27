@@ -106,7 +106,7 @@ U 1 1 5BF5C810
 P 9450 5050
 F 0 "J3" H 9549 5026 50  0000 L CNN
 F 1 "Test Line" H 9549 4935 50  0000 L CNN
-F 2 "Connector_Coaxial:BNC_PanelMountable_Vertical" H 9450 5050 50  0001 C CNN
+F 2 "My_Footprints:Vertical_BNC_Connector" H 9450 5050 50  0001 C CNN
 F 3 " ~" H 9450 5050 50  0001 C CNN
 	1    9450 5050
 	1    0    0    -1  
@@ -133,7 +133,7 @@ U 1 1 5BF5CE7C
 P 9450 5750
 F 0 "J4" H 9549 5726 50  0000 L CNN
 F 1 "OSC" H 9549 5635 50  0000 L CNN
-F 2 "Connector_Coaxial:BNC_PanelMountable_Vertical" H 9450 5750 50  0001 C CNN
+F 2 "My_Footprints:BNC_Connector" H 9450 5750 50  0001 C CNN
 F 3 " ~" H 9450 5750 50  0001 C CNN
 	1    9450 5750
 	1    0    0    -1  
@@ -159,7 +159,7 @@ U 1 1 5BF5D575
 P 4850 2000
 F 0 "U2" H 4850 2242 50  0000 C CNN
 F 1 "L7806" H 4850 2151 50  0000 C CNN
-F 2 "" H 4875 1850 50  0001 L CIN
+F 2 "My_Footprints:L7806ABV" H 4875 1850 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4850 1950 50  0001 C CNN
 	1    4850 2000
 	1    0    0    -1  
@@ -170,7 +170,7 @@ U 1 1 5BF5D5E6
 P 4800 4300
 F 0 "U1" H 4800 4625 50  0000 C CNN
 F 1 "74HC00" H 4800 4534 50  0000 C CNN
-F 2 "" H 4800 4300 50  0001 C CNN
+F 2 "My_Footprints:HC00" H 4800 4300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 4800 4300 50  0001 C CNN
 	1    4800 4300
 	1    0    0    -1  
@@ -181,7 +181,7 @@ U 2 1 5BF5D721
 P 7100 4450
 F 0 "U1" H 7100 4775 50  0000 C CNN
 F 1 "74HC00" H 7100 4684 50  0000 C CNN
-F 2 "" H 7100 4450 50  0001 C CNN
+F 2 "My_Footprints:HC00" H 7100 4450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 7100 4450 50  0001 C CNN
 	2    7100 4450
 	1    0    0    -1  
@@ -192,7 +192,7 @@ U 3 1 5BF5D77A
 P 5500 4850
 F 0 "U1" H 5500 5175 50  0000 C CNN
 F 1 "74HC00" H 5500 5084 50  0000 C CNN
-F 2 "" H 5500 4850 50  0001 C CNN
+F 2 "My_Footprints:HC00" H 5500 4850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5500 4850 50  0001 C CNN
 	3    5500 4850
 	1    0    0    -1  
@@ -203,7 +203,7 @@ U 4 1 5BF5D7E4
 P 6250 4450
 F 0 "U1" H 6250 4775 50  0000 C CNN
 F 1 "74HC00" H 6250 4684 50  0000 C CNN
-F 2 "" H 6250 4450 50  0001 C CNN
+F 2 "My_Footprints:HC00" H 6250 4450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 6250 4450 50  0001 C CNN
 	4    6250 4450
 	1    0    0    -1  
@@ -269,7 +269,7 @@ U 5 1 5BF629B4
 P 5650 3250
 F 0 "U1" H 5880 3296 50  0000 L CNN
 F 1 "74HC00" H 5880 3205 50  0000 L CNN
-F 2 "" H 5650 3250 50  0001 C CNN
+F 2 "My_Footprints:HC00" H 5650 3250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5650 3250 50  0001 C CNN
 	5    5650 3250
 	1    0    0    -1  
@@ -397,7 +397,7 @@ U 1 1 5BF68440
 P 6400 2000
 F 0 "D2" H 6392 1745 50  0000 C CNN
 F 1 "LED" H 6392 1836 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 6400 2000 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 6400 2000 50  0001 C CNN
 F 3 "~" H 6400 2000 50  0001 C CNN
 	1    6400 2000
 	-1   0    0    1   
@@ -680,4 +680,14 @@ Wire Wire Line
 	7450 3750 7450 3850
 Wire Wire Line
 	8850 5050 8850 5750
+Wire Notes Line
+	8750 5150 8950 5150
+Wire Notes Line
+	8950 5150 8950 5650
+Wire Notes Line
+	8950 5650 8750 5650
+Wire Notes Line
+	8750 5650 8750 5150
+Text Notes 8750 5600 1    50   ~ 0
+Microstrip
 $EndSCHEMATC
