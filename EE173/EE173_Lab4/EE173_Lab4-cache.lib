@@ -215,20 +215,6 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# EE173_Lab4-rescue_Microstrip-My_Schematics
-#
-DEF EE173_Lab4-rescue_Microstrip-My_Schematics U 0 40 Y Y 1 F N
-F0 "U" 0 -150 50 H V C CNN
-F1 "EE173_Lab4-rescue_Microstrip-My_Schematics" 50 -50 50 H V C CNN
-F2 "" 0 -150 50 H I C CNN
-F3 "" 0 -150 50 H I C CNN
-DRAW
-S -150 -100 300 -200 0 1 0 N
-X ~ 1 -250 -150 100 R 50 50 1 1 B
-X ~ 2 400 -150 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # Regulator_Linear_L7806
 #
 DEF Regulator_Linear_L7806 U 0 10 Y Y 1 F N

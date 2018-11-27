@@ -105,15 +105,13 @@ L EE173_Lab4-rescue:Conn_Coaxial-My_Connector J3
 U 1 1 5BF5C810
 P 9450 5050
 F 0 "J3" H 9549 5026 50  0000 L CNN
-F 1 "Conn_Coaxial" H 9549 4935 50  0000 L CNN
-F 2 "Connector_Coaxial:BNC_PanelMountable_Vertical" H 9450 5050 50  0001 C CNN
+F 1 "Test Line" H 9549 4935 50  0000 L CNN
+F 2 "My_Footprints:Vertical_BNC_Connector" H 9450 5050 50  0001 C CNN
 F 3 " ~" H 9450 5050 50  0001 C CNN
 	1    9450 5050
 	1    0    0    -1  
 $EndComp
 Connection ~ 8850 5050
-Wire Wire Line
-	8850 5050 8850 5100
 $Comp
 L power:GND #PWR014
 U 1 1 5BF5C968
@@ -134,7 +132,7 @@ L EE173_Lab4-rescue:Conn_Coaxial-My_Connector J4
 U 1 1 5BF5CE7C
 P 9450 5750
 F 0 "J4" H 9549 5726 50  0000 L CNN
-F 1 "Conn_Coaxial" H 9549 5635 50  0000 L CNN
+F 1 "OSC" H 9549 5635 50  0000 L CNN
 F 2 "Connector_Coaxial:BNC_PanelMountable_Vertical" H 9450 5750 50  0001 C CNN
 F 3 " ~" H 9450 5750 50  0001 C CNN
 	1    9450 5750
@@ -161,7 +159,7 @@ U 1 1 5BF5D575
 P 4850 2000
 F 0 "U2" H 4850 2242 50  0000 C CNN
 F 1 "L7806" H 4850 2151 50  0000 C CNN
-F 2 "" H 4875 1850 50  0001 L CIN
+F 2 "My_Footprints:L7806ABV" H 4875 1850 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4850 1950 50  0001 C CNN
 	1    4850 2000
 	1    0    0    -1  
@@ -172,7 +170,7 @@ U 1 1 5BF5D5E6
 P 4800 4300
 F 0 "U1" H 4800 4625 50  0000 C CNN
 F 1 "74HC00" H 4800 4534 50  0000 C CNN
-F 2 "" H 4800 4300 50  0001 C CNN
+F 2 "My_Footprints:HC00" H 4800 4300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 4800 4300 50  0001 C CNN
 	1    4800 4300
 	1    0    0    -1  
@@ -183,7 +181,7 @@ U 2 1 5BF5D721
 P 7100 4450
 F 0 "U1" H 7100 4775 50  0000 C CNN
 F 1 "74HC00" H 7100 4684 50  0000 C CNN
-F 2 "" H 7100 4450 50  0001 C CNN
+F 2 "My_Footprints:HC00" H 7100 4450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 7100 4450 50  0001 C CNN
 	2    7100 4450
 	1    0    0    -1  
@@ -194,7 +192,7 @@ U 3 1 5BF5D77A
 P 5500 4850
 F 0 "U1" H 5500 5175 50  0000 C CNN
 F 1 "74HC00" H 5500 5084 50  0000 C CNN
-F 2 "" H 5500 4850 50  0001 C CNN
+F 2 "My_Footprints:HC00" H 5500 4850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5500 4850 50  0001 C CNN
 	3    5500 4850
 	1    0    0    -1  
@@ -205,7 +203,7 @@ U 4 1 5BF5D7E4
 P 6250 4450
 F 0 "U1" H 6250 4775 50  0000 C CNN
 F 1 "74HC00" H 6250 4684 50  0000 C CNN
-F 2 "" H 6250 4450 50  0001 C CNN
+F 2 "My_Footprints:HC00" H 6250 4450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 6250 4450 50  0001 C CNN
 	4    6250 4450
 	1    0    0    -1  
@@ -271,7 +269,7 @@ U 5 1 5BF629B4
 P 5650 3250
 F 0 "U1" H 5880 3296 50  0000 L CNN
 F 1 "74HC00" H 5880 3205 50  0000 L CNN
-F 2 "" H 5650 3250 50  0001 C CNN
+F 2 "My_Footprints:HC00" H 5650 3250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5650 3250 50  0001 C CNN
 	5    5650 3250
 	1    0    0    -1  
@@ -444,17 +442,6 @@ Wire Wire Line
 	3850 2100 3900 2100
 Wire Wire Line
 	3900 2100 3900 2200
-$Comp
-L EE173_Lab4-rescue:Microstrip-My_Schematics U3
-U 1 1 5BF72232
-P 9000 5350
-F 0 "U3" V 9029 5288 50  0000 L CNN
-F 1 "50ohm" V 9120 5288 50  0000 L CNN
-F 2 "" H 9000 5200 50  0001 C CNN
-F 3 "" H 9000 5200 50  0001 C CNN
-	1    9000 5350
-	0    1    1    0   
-$EndComp
 Wire Notes Line
 	2900 1550 2900 2650
 Wire Notes Line
@@ -677,10 +664,10 @@ Wire Notes Line
 Wire Wire Line
 	8200 3750 8850 3750
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5BFD4519
 P 7450 3850
-F 0 "#PWR?" H 7450 3600 50  0001 C CNN
+F 0 "#PWR0101" H 7450 3600 50  0001 C CNN
 F 1 "GND" H 7455 3677 50  0000 C CNN
 F 2 "" H 7450 3850 50  0001 C CNN
 F 3 "" H 7450 3850 50  0001 C CNN
@@ -691,4 +678,6 @@ Wire Wire Line
 	7600 3750 7450 3750
 Wire Wire Line
 	7450 3750 7450 3850
+Wire Wire Line
+	8850 5050 8850 5750
 $EndSCHEMATC

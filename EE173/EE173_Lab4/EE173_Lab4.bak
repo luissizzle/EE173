@@ -105,15 +105,13 @@ L EE173_Lab4-rescue:Conn_Coaxial-My_Connector J3
 U 1 1 5BF5C810
 P 9450 5050
 F 0 "J3" H 9549 5026 50  0000 L CNN
-F 1 "Conn_Coaxial" H 9549 4935 50  0000 L CNN
+F 1 "Test Line" H 9549 4935 50  0000 L CNN
 F 2 "Connector_Coaxial:BNC_PanelMountable_Vertical" H 9450 5050 50  0001 C CNN
 F 3 " ~" H 9450 5050 50  0001 C CNN
 	1    9450 5050
 	1    0    0    -1  
 $EndComp
 Connection ~ 8850 5050
-Wire Wire Line
-	8850 5050 8850 5100
 $Comp
 L power:GND #PWR014
 U 1 1 5BF5C968
@@ -134,7 +132,7 @@ L EE173_Lab4-rescue:Conn_Coaxial-My_Connector J4
 U 1 1 5BF5CE7C
 P 9450 5750
 F 0 "J4" H 9549 5726 50  0000 L CNN
-F 1 "Conn_Coaxial" H 9549 5635 50  0000 L CNN
+F 1 "OSC" H 9549 5635 50  0000 L CNN
 F 2 "Connector_Coaxial:BNC_PanelMountable_Vertical" H 9450 5750 50  0001 C CNN
 F 3 " ~" H 9450 5750 50  0001 C CNN
 	1    9450 5750
@@ -444,17 +442,6 @@ Wire Wire Line
 	3850 2100 3900 2100
 Wire Wire Line
 	3900 2100 3900 2200
-$Comp
-L EE173_Lab4-rescue:Microstrip-My_Schematics U3
-U 1 1 5BF72232
-P 9000 5350
-F 0 "U3" V 9029 5288 50  0000 L CNN
-F 1 "50ohm" V 9120 5288 50  0000 L CNN
-F 2 "" H 9000 5200 50  0001 C CNN
-F 3 "" H 9000 5200 50  0001 C CNN
-	1    9000 5350
-	0    1    1    0   
-$EndComp
 Wire Notes Line
 	2900 1550 2900 2650
 Wire Notes Line
@@ -518,17 +505,6 @@ F 3 "~" H 7900 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
-U 1 1 5BFA4BB6
-P 8500 3750
-F 0 "R4" V 8293 3750 50  0000 C CNN
-F 1 "R" V 8384 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8430 3750 50  0001 C CNN
-F 3 "~" H 8500 3750 50  0001 C CNN
-	1    8500 3750
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R5
 U 1 1 5BFA4CB4
 P 8500 4100
@@ -556,18 +532,11 @@ Wire Wire Line
 	7600 4450 7600 4100
 Connection ~ 7600 4450
 Wire Wire Line
-	7600 4100 7600 3750
-Connection ~ 7600 4100
-Wire Wire Line
-	8200 3750 8350 3750
-Wire Wire Line
 	8200 4100 8350 4100
 Wire Wire Line
 	8200 4450 8350 4450
 Wire Wire Line
 	8850 4700 8850 4650
-Wire Wire Line
-	8850 3750 8650 3750
 Wire Wire Line
 	8650 4100 8850 4100
 Connection ~ 8850 4100
@@ -692,4 +661,23 @@ Wire Notes Line
 	1750 5100 3400 5100
 Wire Notes Line
 	2750 3200 2750 4850
+Wire Wire Line
+	8200 3750 8850 3750
+$Comp
+L power:GND #PWR0101
+U 1 1 5BFD4519
+P 7450 3850
+F 0 "#PWR0101" H 7450 3600 50  0001 C CNN
+F 1 "GND" H 7455 3677 50  0000 C CNN
+F 2 "" H 7450 3850 50  0001 C CNN
+F 3 "" H 7450 3850 50  0001 C CNN
+	1    7450 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3750 7450 3750
+Wire Wire Line
+	7450 3750 7450 3850
+Wire Wire Line
+	8850 5050 8850 5750
 $EndSCHEMATC
