@@ -77,56 +77,42 @@ Wire Wire Line
 	3900 4300 3900 4350
 Connection ~ 3900 4300
 $Comp
-L power:VCC #PWR08
-U 1 1 5BF3574A
-P 5000 4950
-F 0 "#PWR08" H 5000 4800 50  0001 C CNN
-F 1 "VCC" V 5018 5077 50  0000 L CNN
-F 2 "" H 5000 4950 50  0001 C CNN
-F 3 "" H 5000 4950 50  0001 C CNN
-	1    5000 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R7
 U 1 1 5BF35A5D
-P 8850 4850
-F 0 "R7" H 8920 4896 50  0000 L CNN
-F 1 "R" H 8920 4805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8780 4850 50  0001 C CNN
-F 3 "~" H 8850 4850 50  0001 C CNN
-	1    8850 4850
+P 8850 5200
+F 0 "R7" H 8920 5246 50  0000 L CNN
+F 1 "R" H 8920 5155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8780 5200 50  0001 C CNN
+F 3 "~" H 8850 5200 50  0001 C CNN
+	1    8850 5200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8850 5000 8850 5050
 $Comp
 L EE173_Lab4-rescue:Conn_Coaxial-My_Connector J3
 U 1 1 5BF5C810
-P 9450 5050
-F 0 "J3" H 9549 5026 50  0000 L CNN
-F 1 "Test Line" H 9549 4935 50  0000 L CNN
-F 2 "My_Footprints:Vertical_BNC_Connector" H 9450 5050 50  0001 C CNN
-F 3 " ~" H 9450 5050 50  0001 C CNN
-	1    9450 5050
+P 9450 4750
+F 0 "J3" H 9549 4726 50  0000 L CNN
+F 1 "Test Line" H 9549 4635 50  0000 L CNN
+F 2 "My_Footprints:Vertical_BNC_Connector" H 9450 4750 50  0001 C CNN
+F 3 " ~" H 9450 4750 50  0001 C CNN
+	1    9450 4750
 	1    0    0    -1  
 $EndComp
-Connection ~ 8850 5050
 $Comp
 L power:GND #PWR014
 U 1 1 5BF5C968
-P 9450 5350
-F 0 "#PWR014" H 9450 5100 50  0001 C CNN
-F 1 "GND" H 9455 5177 50  0000 C CNN
-F 2 "" H 9450 5350 50  0001 C CNN
-F 3 "" H 9450 5350 50  0001 C CNN
-	1    9450 5350
+P 9450 5050
+F 0 "#PWR014" H 9450 4800 50  0001 C CNN
+F 1 "GND" H 9455 4877 50  0000 C CNN
+F 2 "" H 9450 5050 50  0001 C CNN
+F 3 "" H 9450 5050 50  0001 C CNN
+	1    9450 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9450 5350 9450 5250
+	9450 5050 9450 4950
 Wire Wire Line
-	8850 5050 9250 5050
+	8850 4750 9250 4750
 $Comp
 L EE173_Lab4-rescue:Conn_Coaxial-My_Connector J4
 U 1 1 5BF5CE7C
@@ -153,17 +139,6 @@ Wire Wire Line
 	9450 6050 9450 5950
 Wire Wire Line
 	8850 5750 9250 5750
-$Comp
-L Regulator_Linear:L7806 U2
-U 1 1 5BF5D575
-P 4850 2000
-F 0 "U2" H 4850 2242 50  0000 C CNN
-F 1 "L7806" H 4850 2151 50  0000 C CNN
-F 2 "My_Footprints:L7806ABV" H 4875 1850 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4850 1950 50  0001 C CNN
-	1    4850 2000
-	1    0    0    -1  
-$EndComp
 $Comp
 L 74xx:74HC00 U1
 U 1 1 5BF5D5E6
@@ -228,8 +203,6 @@ Wire Wire Line
 Connection ~ 5200 4300
 Wire Wire Line
 	5200 4300 5950 4300
-Wire Wire Line
-	5000 4950 5200 4950
 Wire Wire Line
 	4500 4200 4500 4300
 Wire Wire Line
@@ -366,21 +339,8 @@ F 3 "" H 5250 2400 50  0001 C CNN
 	1    5250 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR09
-U 1 1 5BF65AF9
-P 5250 1900
-F 0 "#PWR09" H 5250 1750 50  0001 C CNN
-F 1 "VCC" H 5267 2073 50  0000 C CNN
-F 2 "" H 5250 1900 50  0001 C CNN
-F 3 "" H 5250 1900 50  0001 C CNN
-	1    5250 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 2000 5250 2000
-Wire Wire Line
-	5250 2000 5250 1900
 Connection ~ 5250 2000
 Wire Wire Line
 	5250 2400 5250 2300
@@ -536,8 +496,6 @@ Wire Wire Line
 Wire Wire Line
 	8200 4450 8350 4450
 Wire Wire Line
-	8850 4700 8850 4650
-Wire Wire Line
 	8650 4100 8850 4100
 Connection ~ 8850 4100
 Wire Wire Line
@@ -596,19 +554,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 4400 3450 4400
 Connection ~ 3500 4300
-$Comp
-L power:VCC #PWR04
-U 1 1 5BFCFBE7
-P 3900 3750
-F 0 "#PWR04" H 3900 3600 50  0001 C CNN
-F 1 "VCC" V 3918 3877 50  0000 L CNN
-F 2 "" H 3900 3750 50  0001 C CNN
-F 3 "" H 3900 3750 50  0001 C CNN
-	1    3900 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 3950 3900 3750
 $Comp
 L power:GND #PWR05
 U 1 1 5BFD3FF6
@@ -679,15 +624,66 @@ Wire Wire Line
 Wire Wire Line
 	7450 3750 7450 3850
 Wire Wire Line
-	8850 5050 8850 5750
+	8850 4650 8850 4750
+Wire Wire Line
+	8850 5750 8850 5350
+Connection ~ 8850 4750
+Wire Wire Line
+	8850 4750 8850 5050
 Wire Notes Line
-	8750 5200 8750 5650
+	8800 5450 8900 5450
 Wire Notes Line
-	8750 5650 8950 5650
+	8900 5450 8900 5700
 Wire Notes Line
-	8950 5650 8950 5200
+	8900 5700 8800 5700
 Wire Notes Line
-	8750 5200 8950 5200
-Text Notes 8700 5750 1    50   ~ 0
+	8800 5450 8800 5700
+Text Notes 8750 5900 1    39   ~ 0
 50ohm Microstrip
+$Comp
+L power:+6V #PWR?
+U 1 1 5BFE3C48
+P 4950 4950
+F 0 "#PWR?" H 4950 4800 50  0001 C CNN
+F 1 "+6V" V 4965 5123 50  0000 C CNN
+F 2 "" H 4950 4950 50  0001 C CNN
+F 3 "" H 4950 4950 50  0001 C CNN
+	1    4950 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 4950 4950 4950
+$Comp
+L power:+6V #PWR?
+U 1 1 5BFEFCC1
+P 3900 3950
+F 0 "#PWR?" H 3900 3800 50  0001 C CNN
+F 1 "+6V" V 3915 4123 50  0000 C CNN
+F 2 "" H 3900 3950 50  0001 C CNN
+F 3 "" H 3900 3950 50  0001 C CNN
+	1    3900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L7806 U2
+U 1 1 5BF5D575
+P 4850 2000
+F 0 "U2" H 4850 2242 50  0000 C CNN
+F 1 "L7806" H 4850 2151 50  0000 C CNN
+F 2 "My_Footprints:L7806ABV" H 4875 1850 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4850 1950 50  0001 C CNN
+	1    4850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+6V #PWR?
+U 1 1 5BFF778A
+P 5250 2000
+F 0 "#PWR?" H 5250 1850 50  0001 C CNN
+F 1 "+6V" V 5265 2173 50  0000 C CNN
+F 2 "" H 5250 2000 50  0001 C CNN
+F 3 "" H 5250 2000 50  0001 C CNN
+	1    5250 2000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
