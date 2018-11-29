@@ -142,12 +142,12 @@ Wire Wire Line
 $Comp
 L 74xx:74HC00 U1
 U 1 1 5BF5D5E6
-P 4800 4300
-F 0 "U1" H 4800 4625 50  0000 C CNN
-F 1 "74HC00" H 4800 4534 50  0000 C CNN
-F 2 "My_Footprints:HC00" H 4800 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 4800 4300 50  0001 C CNN
-	1    4800 4300
+P 6250 4450
+F 0 "U1" H 6250 4775 50  0000 C CNN
+F 1 "74HC00" H 6250 4684 50  0000 C CNN
+F 2 "My_Footprints:HC00" H 6250 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 6250 4450 50  0001 C CNN
+	1    6250 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -164,23 +164,23 @@ $EndComp
 $Comp
 L 74xx:74HC00 U1
 U 3 1 5BF5D77A
-P 5500 4850
-F 0 "U1" H 5500 5175 50  0000 C CNN
-F 1 "74HC00" H 5500 5084 50  0000 C CNN
-F 2 "My_Footprints:HC00" H 5500 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5500 4850 50  0001 C CNN
-	3    5500 4850
+P 4800 4300
+F 0 "U1" H 4800 4625 50  0000 C CNN
+F 1 "74HC00" H 4800 4534 50  0000 C CNN
+F 2 "My_Footprints:HC00" H 4800 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 4800 4300 50  0001 C CNN
+	3    4800 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC00 U1
 U 4 1 5BF5D7E4
-P 6250 4450
-F 0 "U1" H 6250 4775 50  0000 C CNN
-F 1 "74HC00" H 6250 4684 50  0000 C CNN
-F 2 "My_Footprints:HC00" H 6250 4450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 6250 4450 50  0001 C CNN
-	4    6250 4450
+P 5500 4850
+F 0 "U1" H 5500 5175 50  0000 C CNN
+F 1 "74HC00" H 5500 5084 50  0000 C CNN
+F 2 "My_Footprints:HC00" H 5500 4850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5500 4850 50  0001 C CNN
+	4    5500 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -641,10 +641,10 @@ Wire Notes Line
 Text Notes 8750 5900 1    39   ~ 0
 50ohm Microstrip
 $Comp
-L power:+6V #PWR?
+L power:+6V #PWR0102
 U 1 1 5BFE3C48
 P 4950 4950
-F 0 "#PWR?" H 4950 4800 50  0001 C CNN
+F 0 "#PWR0102" H 4950 4800 50  0001 C CNN
 F 1 "+6V" V 4965 5123 50  0000 C CNN
 F 2 "" H 4950 4950 50  0001 C CNN
 F 3 "" H 4950 4950 50  0001 C CNN
@@ -654,10 +654,10 @@ $EndComp
 Wire Wire Line
 	5200 4950 4950 4950
 $Comp
-L power:+6V #PWR?
+L power:+6V #PWR0103
 U 1 1 5BFEFCC1
 P 3900 3950
-F 0 "#PWR?" H 3900 3800 50  0001 C CNN
+F 0 "#PWR0103" H 3900 3800 50  0001 C CNN
 F 1 "+6V" V 3915 4123 50  0000 C CNN
 F 2 "" H 3900 3950 50  0001 C CNN
 F 3 "" H 3900 3950 50  0001 C CNN
@@ -676,10 +676,10 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+6V #PWR?
+L power:+6V #PWR0104
 U 1 1 5BFF778A
 P 5250 2000
-F 0 "#PWR?" H 5250 1850 50  0001 C CNN
+F 0 "#PWR0104" H 5250 1850 50  0001 C CNN
 F 1 "+6V" V 5265 2173 50  0000 C CNN
 F 2 "" H 5250 2000 50  0001 C CNN
 F 3 "" H 5250 2000 50  0001 C CNN
