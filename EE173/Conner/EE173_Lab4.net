@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/connerhannon/Documents/GitHub/EE173/EE173/Conner/EE173_Lab4.sch)
-    (date "Wednesday, November 28, 2018 at 04:32:34 PM")
+    (date "Wednesday, November 28, 2018 at 08:44:36 PM")
     (tool "Eeschema (6.0.0-rc1-dev-305-gf0b8b21)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -66,7 +66,7 @@
       (tstamp 5BF5CE7C))
     (comp (ref U1)
       (value 74HC00)
-      (footprint My_Footprints:HC00)
+      (footprint digikey:SN74HC00DR)
       (datasheet http://www.ti.com/lit/gpn/sn74hc00)
       (libsource (lib 74xx) (part 74HC00) (description "quad 2-input NAND gate"))
       (sheetpath (names /) (tstamps /))

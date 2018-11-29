@@ -142,12 +142,12 @@ Wire Wire Line
 $Comp
 L 74xx:74HC00 U1
 U 1 1 5BF5D5E6
-P 4800 4300
-F 0 "U1" H 4800 4625 50  0000 C CNN
-F 1 "74HC00" H 4800 4534 50  0000 C CNN
-F 2 "My_Footprints:HC00" H 4800 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 4800 4300 50  0001 C CNN
-	1    4800 4300
+P 6250 4450
+F 0 "U1" H 6250 4775 50  0000 C CNN
+F 1 "74HC00" H 6250 4684 50  0000 C CNN
+F 2 "My_Footprints:HC00" H 6250 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 6250 4450 50  0001 C CNN
+	1    6250 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -164,23 +164,23 @@ $EndComp
 $Comp
 L 74xx:74HC00 U1
 U 3 1 5BF5D77A
-P 5500 4850
-F 0 "U1" H 5500 5175 50  0000 C CNN
-F 1 "74HC00" H 5500 5084 50  0000 C CNN
-F 2 "My_Footprints:HC00" H 5500 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5500 4850 50  0001 C CNN
-	3    5500 4850
+P 4800 4300
+F 0 "U1" H 4800 4625 50  0000 C CNN
+F 1 "74HC00" H 4800 4534 50  0000 C CNN
+F 2 "My_Footprints:HC00" H 4800 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 4800 4300 50  0001 C CNN
+	3    4800 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC00 U1
 U 4 1 5BF5D7E4
-P 6250 4450
-F 0 "U1" H 6250 4775 50  0000 C CNN
-F 1 "74HC00" H 6250 4684 50  0000 C CNN
-F 2 "My_Footprints:HC00" H 6250 4450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 6250 4450 50  0001 C CNN
-	4    6250 4450
+P 5500 4850
+F 0 "U1" H 5500 5175 50  0000 C CNN
+F 1 "74HC00" H 5500 5084 50  0000 C CNN
+F 2 "My_Footprints:HC00" H 5500 4850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5500 4850 50  0001 C CNN
+	4    5500 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
