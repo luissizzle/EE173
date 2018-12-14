@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Summer\Documents\GitHub\EE173\EE173\Summer\EE173_Lab4.sch)
-    (date "11/28/2018 9:12:18 PM")
+    (date "11/28/2018 9:30:11 PM")
     (tool "Eeschema (5.0.1)-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
